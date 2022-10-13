@@ -24,12 +24,12 @@ To summarize the entire process of the 『Online Public Opinion Prediction Model
 
 
 ### STEP 1. Sentiment analysis corpus preparation
-    - A total of 530k text data, including legislative news and Twitter, provided by the Korea National Assembly, and online comments collected for sentiment analysis, were synthesized and pre-processed.
-    - This text data was labeled (negative: 0, positive: 1) according to positive and negative public opinion.
+  - A total of 530k text data, including legislative news and Twitter, provided by the Korea National Assembly, and online comments collected for sentiment analysis, were synthesized and pre-processed.
+  - This text data was labeled (negative: 0, positive: 1) according to positive and negative public opinion.
     
 ### STEP 2. Text Embedding Classifier
-    - Using pre-trained BERT-based language models(PLMs), we can obtain a fixed-size contextual vector, which means Token Embedding.
-    - Use the [CLS] token or apply a pooling technique to obtain sentence-level embedding instead of token-level embedding.
-        1) [CLS] Token : A word-level vector containing the meaning of the entire token within a sentence.
-        2) Mean Pooling : A sentence-level vector summarizing the semantic expression of all tokens
-        3) Max Pooling : A sentence-level vector summarizing the semantic expression of important tokens.
+  - Using pre-trained BERT-based language models(PLMs), we can obtain a fixed-size contextual vector, which means Token Embedding.
+  - Use the [CLS] token or apply a pooling technique to obtain sentence-level embedding instead of token-level embedding.
+      1) [CLS] Token : A word-level vector containing the meaning of the entire token within a sentence.
+      2) Mean Pooling : A sentence-level vector summarizing the semantic expression of all tokens
+      3) Max Pooling : A sentence-level vector summarizing the semantic expression of important tokens.
