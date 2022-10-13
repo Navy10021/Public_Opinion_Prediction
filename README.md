@@ -62,3 +62,12 @@ To summarize the entire process of the 『Online Public Opinion Prediction Model
   
   
   ![time_series_prediction_model](https://user-images.githubusercontent.com/105137667/195535564-cfe9fa75-fe94-4f24-b6da-6df23be54bca.jpg)
+  
+  
+## 4. Train & Inference results
+  - Our model attends (highly weighted) to the major rebound or rebound inflection points in the input data and learns fine-grained time series patterns.
+  - Blue line : Actual value, Red line : Model predicted value, Grey-line : Residual(True - Prediction)
+  
+  ![train_results](https://user-images.githubusercontent.com/105137667/195538351-80668140-c1b5-450d-b081-b338cc3c80ba.jpg)
+
+  
