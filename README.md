@@ -34,6 +34,7 @@ To summarize the entire process of the 『Online Public Opinion Prediction Model
 
 
 
+
 ### STEP 2) Text Embedding Classifier(classification model)
   
   - Using pre-trained BERT-based language models(PLMs), we can obtain a fixed-size contextual vector, which means Token Embedding.
@@ -48,9 +49,10 @@ To summarize the entire process of the 『Online Public Opinion Prediction Model
  
   ![sent_embedding](https://user-images.githubusercontent.com/105137667/195534528-a9e7373e-0570-44f3-a409-2f6bfa324a98.jpg)
 
-
 ### STEP 3) Time series data conversion
   - Through the 'Text Embedding Classifier Model', articles and Twitter related to 'Lease 3 Law' are predicted as positive or negative and then converted into time series data through the 'Hash Table Function'.
+  
+  
   
   
 ### STEP 4) Transformer-based time series predictor(prediction model)
