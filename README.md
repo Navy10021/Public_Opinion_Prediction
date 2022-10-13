@@ -36,7 +36,5 @@ To summarize the entire process of the 『Online Public Opinion Prediction Model
   - Use the [CLS] token or apply a pooling technique to obtain sentence-level embedding instead of token-level embedding.
       
       1) [CLS] Token : A word-level vector containing the meaning of the entire token within a sentence.
-      
-      2) Mean Pooling : A sentence-level vector summarizing the semantic expression of all tokens
-      
+      2) Mean Pooling : A sentence-level vector summarizing the semantic expression of all tokens.
       3) Max Pooling : A sentence-level vector summarizing the semantic expression of important tokens.
