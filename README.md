@@ -46,6 +46,10 @@ To summarize the entire process of the 『Online Public Opinion Prediction Model
       3) Max Pooling : A sentence-level vector summarizing the semantic expression of important tokens.
  
   ![sent_embedding](https://user-images.githubusercontent.com/105137667/195534528-a9e7373e-0570-44f3-a409-2f6bfa324a98.jpg)
+  
+  - As a result of Text Embedding Classifier, all three methods show classification accuracy of 91~92% or more.
+  
+  ![그림_4](https://user-images.githubusercontent.com/105137667/195536071-c5599163-8560-4345-bcd0-7e52daf4b704.jpg)
 
 
 
