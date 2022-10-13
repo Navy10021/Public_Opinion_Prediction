@@ -41,5 +41,5 @@ To summarize the entire process of the 『Online Public Opinion Prediction Model
       1) [CLS] Token : A word-level vector containing the meaning of the entire token within a sentence.
       2) Mean Pooling : A sentence-level vector summarizing the semantic expression of all tokens.
       3) Max Pooling : A sentence-level vector summarizing the semantic expression of important tokens.
-      
-  ![sent_embedding](https://user-images.githubusercontent.com/105137667/195534389-6dea7d2c-dbb3-4e08-a8a7-f90c63a0d904.jpg
+ 
+  ![sent_embedding](https://user-images.githubusercontent.com/105137667/195534528-a9e7373e-0570-44f3-a409-2f6bfa324a98.jpg)
