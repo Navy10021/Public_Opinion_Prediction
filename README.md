@@ -33,6 +33,7 @@ To summarize the entire process of the 『Online Public Opinion Prediction Model
   ![그림_2](https://user-images.githubusercontent.com/105137667/195534324-999cbc31-5225-4c1e-a8d8-3a1a47b05ba8.jpg)
 
 
+
 ### STEP 2) Text Embedding Classifier(classification model)
   
   - Using pre-trained BERT-based language models(PLMs), we can obtain a fixed-size contextual vector, which means Token Embedding.
@@ -46,7 +47,6 @@ To summarize the entire process of the 『Online Public Opinion Prediction Model
    - As a result of Text Embedding Classifier, all three methods show classification accuracy of 91~92% or more.
  
   ![sent_embedding](https://user-images.githubusercontent.com/105137667/195534528-a9e7373e-0570-44f3-a409-2f6bfa324a98.jpg)
-
 
 
 ### STEP 3) Time series data conversion
