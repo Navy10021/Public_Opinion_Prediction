@@ -24,7 +24,7 @@ To summarize the entire process of the 『Online Public Opinion Prediction Model
 ![task_1_overall](https://user-images.githubusercontent.com/105137667/195532709-3071aee0-e6db-481a-b97f-220e39e540fa.jpg)
 
 
-### STEP 1) Sentiment analysis corpus preparation
+### STEP 1. Sentiment analysis corpus preparation
 
   - A total of 530k text data, including legislative news and Twitter, provided by the Korea National Assembly, and online comments collected for sentiment analysis, were synthesized and pre-processed.
   
@@ -36,7 +36,7 @@ To summarize the entire process of the 『Online Public Opinion Prediction Model
 
 
 
-### STEP 2) Text Embedding Classifier(classification model)
+### STEP 2. Text Embedding Classifier(classification model)
   
   - Using pre-trained BERT-based language models(PLMs), we can obtain a fixed-size contextual vector, which means Token Embedding.
   
@@ -50,13 +50,13 @@ To summarize the entire process of the 『Online Public Opinion Prediction Model
  
   ![sent_embedding](https://user-images.githubusercontent.com/105137667/195534528-a9e7373e-0570-44f3-a409-2f6bfa324a98.jpg)
 
-### STEP 3) Time series data conversion
+### STEP 3. Time series data conversion
   - Through the 'Text Embedding Classifier Model', articles and Twitter related to 'Lease 3 Law' are predicted as positive or negative and then converted into time series data through the 'Hash Table Function'.
   
   
   
   
-### STEP 4) Transformer-based time series predictor(prediction model)
+### STEP 4. Transformer-based time series predictor(prediction model)
   - The transformer model solves the problems faced by the existing RNN-based models by applying the attention mechanism, and the calculation speed is greatly improved.
   - In particular, attention is a core concept of the Transformer, which enables the neural network of the model to understand contextual text information, focusing on words similar to the current term, and training and inferencing.
   - Inspired by this model, our time series prediction model is a Seq2Seq model in consists of an encoder as three transformer encoders are stacked and a decoder as one linear regression model.
@@ -73,3 +73,6 @@ To summarize the entire process of the 『Online Public Opinion Prediction Model
     ![image](https://user-images.githubusercontent.com/105137667/195545513-04a6f352-8402-4be8-a41b-838b9b6cf95f.png)
 
   
+## 5. Dev
+- Seoul National University NLP Labs
+- Navy Lee
